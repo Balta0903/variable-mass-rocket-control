@@ -1,6 +1,10 @@
-#Variable mass rocket control
-"""
 
+"""
+Variable Mass Rocket Control Simulation
+Baltazar Villasol
+This program simulates the vertical motion of a rocket with changing mass.
+A PID-style controller adjusts the fuel mass flow rate to try to maintain
+a target velocity. The rocket is affected by thrust, gravity, and drag.
 """
 #imports
 import numpy as np
